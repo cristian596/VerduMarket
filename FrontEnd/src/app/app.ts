@@ -1,12 +1,14 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatButtonModule} from '@angular/material/button';
+import { User } from "./login/user/user";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [MatToolbarModule, MatButtonModule],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
 export class App {
-  protected title = 'FrontEnd';
+  protected title = 'Del Campo a Casa';
 }
