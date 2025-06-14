@@ -1,0 +1,51 @@
+body{
+    display: flex;
+    background-color:#FAEDCA;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.slogan{
+    align-items: center;
+    bottom: 25px;
+    margin: 150px;
+    padding: 10px;
+}
+.slogan p{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.login .box_login{
+    width: 360px;
+    height: 380px;
+    max-width: 500px;
+    margin: 15px;
+    padding: 10px;
+    border: 6px solid white;
+    box-shadow: 5px 3px 3px 3px rgb(0,0,0,0.2);
+    border-radius: 15px;
+}
+
+.footer_login p{
+    text-align: center;
+    font-size: 1rem;
+}
+
+.form_login{
+    display: block;
+}
+.form_login .input_contraseña{
+    width: 350px;   
+}
+.form_login .input_correo{
+    width: 350px;
+}
+
+.form_login button{
+    align-items: center;
+    margin: 5px;
+}
