@@ -1,8 +1,12 @@
 body{
     display: flex;
-    background-color:#FAEDCA;
+    background-color:#ddd;
 }
-
+.login .slogan img{
+    width: 450px;
+    height: 380px;
+    border-radius: 15px;
+}
 .login{
     display: flex;
     justify-content: center;
@@ -11,9 +15,7 @@ body{
 
 .slogan{
     align-items: center;
-    bottom: 25px;
-    margin: 150px;
-    padding: 10px;
+    margin: 20px;
 }
 .slogan p{
     font-family: sans-serif;
@@ -21,7 +23,7 @@ body{
 }
 .login .box_login{
     width: 360px;
-    height: 380px;
+    height: 340px;
     max-width: 500px;
     margin: 15px;
     padding: 10px;
@@ -48,4 +50,21 @@ body{
 .form_login button{
     align-items: center;
     margin: 5px;
+}
+
+.form_login a{
+    text-decoration: none;
+    text-align: center;
+}
+
+.form_login .linea_separada{
+    width: 100%;
+    height: 1px;
+    background-color: #ddd;
+    margin: 20px 0;
+}
+
+.form_login button{
+    display: block;
+    margin: auto;
 }

@@ -1,6 +1,10 @@
 .header {
   flex: 1 1 auto;
 }
+.toolbar span img{
+  width: 150px;
+  height: 50px;
+}
 button{
     margin-left: 5px;
     color: #9FC87E;
