@@ -12,8 +12,8 @@
             <mat-form-field class="input_contraseña">
                 <input matInput placeholder="Contraseña" required="">
             </mat-form-field><br>
-            <button matButton="filled">Inicar Sesion</button>
-            <a href="#"><h5>¿Olvidaste tu contraseña?</h5></a>
+            <button (click)="iniciarSesion()" matButton="filled">Inicar Sesion</button>
+            <a href=""><h5>¿Olvidaste tu contraseña?</h5></a>
             <div class="linea_separada"></div>
             <button matButton="filled">Crear Cuenta</button><br>
         </form>

@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatButtonModule} from '@angular/material/button';
-import {RouterLink ,RouterOutlet } from '@angular/router';
+import {Router, RouterLink ,RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -12,4 +12,10 @@ import {RouterLink ,RouterOutlet } from '@angular/router';
 })
 export class App {
   protected title = 'Del Campo a Casa';
+
+  constructor(public router: Router){}
+
+  mostrarheader(): boolean{
+    return this.router.url !== '/contenido';
+  }
 }

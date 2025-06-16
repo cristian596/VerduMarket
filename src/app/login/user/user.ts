@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import {MatInputModule} from '@angular/material/input';
 import {MatButtonModule} from '@angular/material/button';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-user',
@@ -9,5 +10,9 @@ import {MatButtonModule} from '@angular/material/button';
   styleUrl: './user.css'
 })
 export class User {
+ constructor(private router: Router){}
 
+ iniciarSesion(){
+  this.router.navigate(['/contenido']);
+ }
 }
